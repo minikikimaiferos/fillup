@@ -1,0 +1,121 @@
+/* ========================================
+   RESPONSIVE — TABLET (< 1024px)
+======================================== */
+@media (max-width: 1024px) {
+    .services-grid,
+    .portfolio-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats-bar {
+        gap: 32px;
+    }
+}
+
+/* ========================================
+   RESPONSIVE — MOBILE (< 768px)
+======================================== */
+@media (max-width: 768px) {
+    .nav-links,
+    .nav-right .btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .services-grid,
+    .portfolio-grid,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-bar {
+        gap: 24px;
+    }
+
+    .stat-number {
+        font-size: 1.7rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quick-contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos-row {
+        gap: 28px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-subtitle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stats-bar {
+        justify-content: center;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+}
+
+/* ========================================
+   RESPONSIVE — SMALL MOBILE (< 480px)
+======================================== */
+@media (max-width: 480px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 1.9rem;
+    }
+}

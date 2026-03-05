@@ -1,0 +1,12 @@
+{
+  "name": "fillup-landing",
+  "version": "1.0.0",
+  "description": "Fill Up — Landing page pour services digitaux",
+  "scripts": {
+    "dev": "npx serve . -p 3000 -s",
+    "start": "npx serve . -p 3000 -s"
+  },
+  "author": "Fill Up (Matthew Dechamps & Yaroslav Kurtichan)",
+  "license": "UNLICENSED",
+  "private": true
+}
