@@ -1,12 +1,25 @@
 {
-  "name": "fillup-landing",
+  "name": "goopti-next",
   "version": "1.0.0",
-  "description": "Fill Up — Landing page pour services digitaux",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "npx serve . -p 3000 -s",
-    "start": "npx serve . -p 3000 -s"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Fill Up (Matthew Dechamps & Yaroslav Kurtichan)",
-  "license": "UNLICENSED",
-  "private": true
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^1.7.0",
+    "next": "^16.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "typescript": "6.0.2"
+  }
 }

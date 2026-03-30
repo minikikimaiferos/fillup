@@ -1,5 +1,5 @@
 /**
- * Fill Up — Scroll animations
+ * Go_Opti — Scroll animations
  * Reveal on scroll + counter animation
  */
 

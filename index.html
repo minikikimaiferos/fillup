@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fill Up — Services Digitaux</title>
-    <meta name="description" content="Fill Up — Développement digital sur mesure. Mise en relation B2B, cartes digitales, contenu audiovisuel, développement web et apps.">
+    <title>Go_Opti — Optimisation Digitale</title>
+    <meta name="description" content="Go_Opti — Agence digitale. Bruxelles.">
+    <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -23,12 +24,10 @@
 </head>
 <body>
 
-    <!-- ==========================================
-         NAVBAR
-    ========================================== -->
+    <!-- NAVBAR -->
     <nav class="navbar" id="navbar">
         <div class="container">
-            <a href="#" class="logo">Fill<span>Up</span></a>
+            <a href="#" class="logo">G<span class="eye">o</span>_<span><span class="eye eye-big">O</span>pti</span></a>
 
             <ul class="nav-links">
                 <li><a href="#services" data-i18n="nav.services">Services</a></li>
@@ -61,9 +60,7 @@
         </div>
     </div>
 
-    <!-- ==========================================
-         HERO
-    ========================================== -->
+    <!-- HERO -->
     <section class="hero" id="hero">
         <div class="hero-orb hero-orb-1"></div>
         <div class="hero-orb hero-orb-2"></div>
@@ -71,566 +68,122 @@
 
         <div class="container">
             <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="dot"></span>
-                    <span data-i18n="hero.badge">Agence digitale innovante</span>
-                </div>
+                <h1 data-i18n="hero.title">Propulsez votre business dans <span class="gradient-text">l'ere digitale</span></h1>
 
-                <h1 data-i18n="hero.title">Propulsez votre business dans <span class="gradient-text">l'ère digitale</span></h1>
-
-                <p class="hero-subtitle" data-i18n="hero.subtitle">Développement digital sur mesure pour accélérer votre croissance. Vous avez un besoin digital ? On s'en occupe.</p>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Developpement digital sur mesure pour accelerer votre croissance. Vous avez un besoin digital ? On s'en occupe.</p>
 
                 <div class="hero-buttons">
-                    <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">
-                        Découvrir nos services
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">
+                        Parlons-en
                     </a>
-                    <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">
-                        Nous contacter
-                    </a>
-                </div>
-
-                <div class="stats-bar reveal">
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="50">0+</div>
-                        <div class="stat-label" data-i18n="hero.stat1">Clients satisfaits</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="200">0+</div>
-                        <div class="stat-label" data-i18n="hero.stat2">Projets livrés</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="3">0</div>
-                        <div class="stat-label" data-i18n="hero.stat3">Pays</div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ==========================================
-         SERVICES
-    ========================================== -->
+    <!-- SERVICES -->
     <section class="services" id="services">
         <div class="container">
             <div class="services-header reveal">
-                <div class="section-label" data-i18n="services.label">Ce qu'on fait</div>
-                <h2 class="section-title" data-i18n="services.title">Si c'est digital, <span class="gradient-text">on gère</span></h2>
-                <p class="section-subtitle" data-i18n="services.subtitle">On ne rentre pas dans des cases. On s'adapte à vos besoins et on construit la solution digitale qu'il vous faut, de A à Z.</p>
+                <h2 class="section-title" data-i18n="services.title">Ce qu'on <span class="gradient-text">fait</span></h2>
             </div>
 
             <div class="services-grid">
-                <!-- Card 1 -->
-                <div class="service-card reveal">
+                <a href="optimisation-digitale.html" class="service-card reveal service-card-link">
                     <div class="service-icon">
-                        <i data-lucide="handshake"></i>
+                        <i data-lucide="trending-up"></i>
                     </div>
-                    <h3 data-i18n="services.card1.title">Connexion & Partenariats</h3>
-                    <p data-i18n="services.card1.desc">On connecte les bons acteurs entre eux. Restaurants, salles event, entreprises — on crée des ponts qui génèrent du business.</p>
-                </div>
+                    <h3 data-i18n="services.card1.title">Optimisation Digitale</h3>
+                </a>
 
-                <!-- Card 2 -->
-                <div class="service-card reveal">
-                    <div class="service-icon">
-                        <i data-lucide="credit-card"></i>
-                    </div>
-                    <h3 data-i18n="services.card2.title">Cartes digitales</h3>
-                    <p data-i18n="services.card2.desc">Fidélité, visite, cadeaux — tout passe au digital. On conçoit et déploie des solutions de cartes qui modernisent votre relation client.</p>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="service-card reveal">
-                    <div class="service-icon">
-                        <i data-lucide="video"></i>
-                    </div>
-                    <h3 data-i18n="services.card3.title">Contenu & audiovisuel</h3>
-                    <p data-i18n="services.card3.desc">Vidéo, photo, motion, contenu pour vos réseaux — on produit ce qui capte l'attention et raconte votre histoire.</p>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="service-card reveal">
+                <a href="developpement-web.html" class="service-card reveal service-card-link">
                     <div class="service-icon">
                         <i data-lucide="code"></i>
                     </div>
-                    <h3 data-i18n="services.card4.title">Développement sur mesure</h3>
-                    <p data-i18n="services.card4.desc">Sites web, apps mobiles, plateformes — on code exactement ce dont vous avez besoin, rien de plus, rien de moins.</p>
-                </div>
+                    <h3 data-i18n="services.card2.title">Developpement Web & Apps</h3>
+                </a>
 
-                <!-- Card 5 -->
-                <div class="service-card reveal">
+                <a href="audiovisuel.html" class="service-card reveal service-card-link">
                     <div class="service-icon">
-                        <i data-lucide="lightbulb"></i>
+                        <i data-lucide="video"></i>
                     </div>
-                    <h3 data-i18n="services.card5.title">Stratégie digitale</h3>
-                    <p data-i18n="services.card5.desc">Vous avez une idée mais pas de roadmap ? On structure votre projet digital et on définit le plan d'action pour y arriver.</p>
-                </div>
+                    <h3 data-i18n="services.card3.title">Audiovisuel</h3>
+                </a>
 
-                <!-- Card 6 -->
-                <div class="service-card reveal">
+                <a href="ia-automatisation.html" class="service-card reveal service-card-link">
                     <div class="service-icon">
-                        <i data-lucide="rocket"></i>
+                        <i data-lucide="brain-circuit"></i>
                     </div>
-                    <h3 data-i18n="services.card6.title">Et tout le reste</h3>
-                    <p data-i18n="services.card6.desc">Votre besoin ne rentre pas dans une case ? Tant mieux. On s'adapte, on trouve la solution et on la construit pour vous.</p>
-                </div>
+                    <h3 data-i18n="services.card4.title">IA & Automatisation</h3>
+                </a>
+
+                <a href="ads-social-media.html" class="service-card reveal service-card-link">
+                    <div class="service-icon">
+                        <i data-lucide="megaphone"></i>
+                    </div>
+                    <h3 data-i18n="services.card5.title">Ads & Social Media</h3>
+                </a>
+
+                <a href="secretariat-b2b.html" class="service-card reveal service-card-link">
+                    <div class="service-icon">
+                        <i data-lucide="briefcase"></i>
+                    </div>
+                    <h3 data-i18n="services.card6.title">Secretariat & Gestion B2B</h3>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- ==========================================
-         PORTFOLIO
-    ========================================== -->
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="portfolio-header reveal">
-                <div class="section-label" data-i18n="portfolio.label">Portfolio</div>
-                <h2 class="section-title" data-i18n="portfolio.title">Nos <span class="gradient-text">réalisations</span></h2>
-                <p class="section-subtitle" data-i18n="portfolio.subtitle">Découvrez une sélection de projets qui illustrent notre expertise et notre créativité.</p>
-            </div>
-
-            <div class="portfolio-filters reveal">
-                <button class="filter-btn active" data-filter="all" data-i18n="portfolio.filter.all">Tous</button>
-                <button class="filter-btn" data-filter="b2b" data-i18n="portfolio.filter.b2b">B2B</button>
-                <button class="filter-btn" data-filter="cards" data-i18n="portfolio.filter.cards">Cartes</button>
-                <button class="filter-btn" data-filter="audiovisual" data-i18n="portfolio.filter.av">Audiovisuel</button>
-                <button class="filter-btn" data-filter="webapps" data-i18n="portfolio.filter.webapps">Web & Apps</button>
-            </div>
-
-            <div class="portfolio-grid">
-                <!-- Project 1 — B2B Platform -->
-                <div class="portfolio-card reveal" data-category="b2b">
-                    <div class="portfolio-thumb">
-                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                            <defs>
-                                <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4c1d95"/><stop offset="100%" stop-color="#1e40af"/></linearGradient>
-                            </defs>
-                            <rect width="400" height="300" fill="url(#g1)"/>
-                            <!-- Browser mockup -->
-                            <rect x="40" y="40" width="320" height="200" rx="8" fill="#0f0f2e" opacity="0.9"/>
-                            <rect x="40" y="40" width="320" height="28" rx="8" fill="#1a1a3e"/>
-                            <circle cx="58" cy="54" r="4" fill="#ef4444"/><circle cx="72" cy="54" r="4" fill="#eab308"/><circle cx="86" cy="54" r="4" fill="#22c55e"/>
-                            <rect x="120" y="49" width="160" height="10" rx="5" fill="#2a2a50"/>
-                            <!-- Dashboard content -->
-                            <rect x="55" y="80" width="90" height="50" rx="6" fill="rgba(124,58,237,0.2)" stroke="rgba(124,58,237,0.3)" stroke-width="1"/>
-                            <rect x="55" y="88" width="50" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
-                            <text x="60" y="118" font-size="16" font-weight="bold" fill="#c4b5fd" font-family="Inter,sans-serif">150+</text>
-                            <rect x="160" y="80" width="90" height="50" rx="6" fill="rgba(59,130,246,0.2)" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
-                            <rect x="160" y="88" width="50" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
-                            <text x="165" y="118" font-size="16" font-weight="bold" fill="#93c5fd" font-family="Inter,sans-serif">89%</text>
-                            <rect x="265" y="80" width="80" height="50" rx="6" fill="rgba(16,185,129,0.2)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
-                            <rect x="265" y="88" width="45" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
-                            <text x="270" y="118" font-size="16" font-weight="bold" fill="#6ee7b7" font-family="Inter,sans-serif">24k</text>
-                            <!-- Chart -->
-                            <polyline points="55,210 100,190 150,200 200,170 250,160 300,145 340,155" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round"/>
-                            <polyline points="55,215 100,205 150,210 200,195 250,185 300,175 340,180" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-                            <!-- Rows -->
-                            <rect x="55" y="145" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
-                            <rect x="55" y="145" width="180" height="8" rx="4" fill="rgba(124,58,237,0.25)"/>
-                            <rect x="55" y="158" width="290" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
-                            <rect x="55" y="158" width="220" height="8" rx="4" fill="rgba(59,130,246,0.2)"/>
-                        </svg>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <span class="portfolio-tag">B2B</span>
-                        <h3 data-i18n="portfolio.p1.title">GourmetConnect</h3>
-                        <p data-i18n="portfolio.p1.desc">Plateforme de mise en relation entre restaurants gastronomiques et entreprises pour événements corporate.</p>
-                        <a href="#" class="portfolio-link" data-i18n="portfolio.viewproject">Voir le projet →</a>
-                    </div>
-                </div>
-
-                <!-- Project 2 — Loyalty Cards -->
-                <div class="portfolio-card reveal" data-category="cards">
-                    <div class="portfolio-thumb">
-                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                            <defs>
-                                <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
-                                <linearGradient id="cardg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#a855f7"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
-                            </defs>
-                            <rect width="400" height="300" fill="url(#g2)"/>
-                            <!-- Card 1 (front) -->
-                            <rect x="60" y="55" width="220" height="135" rx="14" fill="url(#cardg)" opacity="0.95"/>
-                            <rect x="75" y="72" width="45" height="32" rx="5" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
-                            <rect x="80" y="80" width="14" height="10" rx="2" fill="rgba(255,255,255,0.4)"/>
-                            <text x="75" y="130" font-size="11" fill="rgba(255,255,255,0.9)" font-family="Inter,sans-serif" letter-spacing="3">•••• •••• •••• 4829</text>
-                            <text x="75" y="150" font-size="9" fill="rgba(255,255,255,0.6)" font-family="Inter,sans-serif">LOYALTY MEMBER</text>
-                            <text x="75" y="170" font-size="10" fill="rgba(255,255,255,0.8)" font-family="Inter,sans-serif" font-weight="600">JEAN DUPONT</text>
-                            <!-- Stars/points -->
-                            <circle cx="230" cy="75" r="18" fill="rgba(255,255,255,0.15)"/>
-                            <text x="222" y="80" font-size="14" fill="#fff" font-family="Inter,sans-serif" font-weight="bold">★</text>
-                            <!-- Card 2 (behind, offset) -->
-                            <rect x="130" y="120" width="220" height="135" rx="14" fill="#1e1b4b" opacity="0.7" stroke="rgba(124,58,237,0.3)" stroke-width="1"/>
-                            <rect x="145" y="137" width="45" height="32" rx="5" fill="rgba(255,255,255,0.08)"/>
-                            <rect x="145" y="185" width="120" height="8" rx="4" fill="rgba(255,255,255,0.1)"/>
-                            <rect x="145" y="200" width="80" height="8" rx="4" fill="rgba(255,255,255,0.07)"/>
-                            <!-- Floating points badge -->
-                            <circle cx="330" cy="90" r="28" fill="rgba(6,182,212,0.25)" stroke="rgba(6,182,212,0.5)" stroke-width="1.5"/>
-                            <text x="315" y="87" font-size="14" font-weight="bold" fill="#22d3ee" font-family="Inter,sans-serif">850</text>
-                            <text x="316" y="100" font-size="7" fill="rgba(34,211,238,0.7)" font-family="Inter,sans-serif">PTS</text>
-                        </svg>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <span class="portfolio-tag" data-i18n="portfolio.filter.cards">Cartes</span>
-                        <h3 data-i18n="portfolio.p2.title">LoyalEats</h3>
-                        <p data-i18n="portfolio.p2.desc">Système de cartes de fidélité digitales pour une chaîne de 25 restaurants à Paris.</p>
-                        <a href="#" class="portfolio-link" data-i18n="portfolio.viewproject">Voir le projet →</a>
-                    </div>
-                </div>
-
-                <!-- Project 3 — Audiovisual -->
-                <div class="portfolio-card reveal" data-category="audiovisual">
-                    <div class="portfolio-thumb">
-                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                            <defs>
-                                <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#be185d"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
-                            </defs>
-                            <rect width="400" height="300" fill="url(#g3)"/>
-                            <!-- Camera frame / viewfinder -->
-                            <rect x="50" y="50" width="300" height="180" rx="4" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
-                            <!-- Corner markers -->
-                            <path d="M60,60 L60,80 M60,60 L80,60" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
-                            <path d="M340,60 L340,80 M340,60 L320,60" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
-                            <path d="M60,220 L60,200 M60,220 L80,220" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
-                            <path d="M340,220 L340,200 M340,220 L320,220" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
-                            <!-- Play button -->
-                            <circle cx="200" cy="140" r="30" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
-                            <polygon points="190,125 190,155 218,140" fill="rgba(255,255,255,0.9)"/>
-                            <!-- REC indicator -->
-                            <circle cx="80" cy="80" r="5" fill="#ef4444"/><text x="92" y="84" font-size="10" fill="#ef4444" font-family="Inter,sans-serif" font-weight="bold">REC</text>
-                            <!-- Timecode -->
-                            <text x="280" y="84" font-size="10" fill="rgba(255,255,255,0.6)" font-family="monospace">00:42:16</text>
-                            <!-- Timeline bar -->
-                            <rect x="50" y="240" width="300" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
-                            <rect x="50" y="240" width="180" height="4" rx="2" fill="rgba(190,24,93,0.8)"/>
-                            <circle cx="230" cy="242" r="6" fill="#fff"/>
-                            <!-- Waveform -->
-                            <g opacity="0.4" transform="translate(70,255)">
-                                <rect x="0" y="-8" width="3" height="16" rx="1.5" fill="#fff"/><rect x="8" y="-12" width="3" height="24" rx="1.5" fill="#fff"/>
-                                <rect x="16" y="-5" width="3" height="10" rx="1.5" fill="#fff"/><rect x="24" y="-15" width="3" height="30" rx="1.5" fill="#fff"/>
-                                <rect x="32" y="-8" width="3" height="16" rx="1.5" fill="#fff"/><rect x="40" y="-18" width="3" height="36" rx="1.5" fill="#fff"/>
-                                <rect x="48" y="-10" width="3" height="20" rx="1.5" fill="#fff"/><rect x="56" y="-6" width="3" height="12" rx="1.5" fill="#fff"/>
-                                <rect x="64" y="-14" width="3" height="28" rx="1.5" fill="#fff"/><rect x="72" y="-8" width="3" height="16" rx="1.5" fill="#fff"/>
-                                <rect x="80" y="-20" width="3" height="40" rx="1.5" fill="#fff"/><rect x="88" y="-10" width="3" height="20" rx="1.5" fill="#fff"/>
-                                <rect x="96" y="-6" width="3" height="12" rx="1.5" fill="#fff"/><rect x="104" y="-14" width="3" height="28" rx="1.5" fill="#fff"/>
-                                <rect x="112" y="-8" width="3" height="16" rx="1.5" fill="#fff"/><rect x="120" y="-16" width="3" height="32" rx="1.5" fill="#fff"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <span class="portfolio-tag" data-i18n="portfolio.filter.av">Audiovisuel</span>
-                        <h3 data-i18n="portfolio.p3.title">Maison Élégance</h3>
-                        <p data-i18n="portfolio.p3.desc">Campagne vidéo complète pour le lancement d'une salle événementielle haut de gamme.</p>
-                        <a href="#" class="portfolio-link" data-i18n="portfolio.viewproject">Voir le projet →</a>
-                    </div>
-                </div>
-
-                <!-- Project 4 — Mobile App -->
-                <div class="portfolio-card reveal" data-category="webapps">
-                    <div class="portfolio-thumb">
-                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                            <defs>
-                                <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0e7490"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
-                            </defs>
-                            <rect width="400" height="300" fill="url(#g4)"/>
-                            <!-- Phone mockup -->
-                            <rect x="140" y="20" width="120" height="260" rx="18" fill="#0f172a" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
-                            <rect x="175" y="28" width="50" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
-                            <!-- App screen -->
-                            <rect x="148" y="42" width="104" height="220" fill="#111827"/>
-                            <!-- App header -->
-                            <rect x="148" y="42" width="104" height="35" fill="rgba(14,116,144,0.4)"/>
-                            <text x="168" y="64" font-size="9" font-weight="bold" fill="#fff" font-family="Inter,sans-serif">EventHub</text>
-                            <!-- Event cards in app -->
-                            <rect x="155" y="85" width="90" height="45" rx="6" fill="rgba(59,130,246,0.15)" stroke="rgba(59,130,246,0.3)" stroke-width="0.8"/>
-                            <rect x="162" y="93" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.4)"/>
-                            <rect x="162" y="103" width="35" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
-                            <rect x="162" y="112" width="70" height="10" rx="5" fill="rgba(59,130,246,0.4)"/>
-                            <text x="170" y="120" font-size="6" fill="#93c5fd" font-family="Inter,sans-serif">Réserver</text>
-                            <rect x="155" y="138" width="90" height="45" rx="6" fill="rgba(124,58,237,0.15)" stroke="rgba(124,58,237,0.3)" stroke-width="0.8"/>
-                            <rect x="162" y="146" width="55" height="5" rx="2.5" fill="rgba(255,255,255,0.4)"/>
-                            <rect x="162" y="156" width="40" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
-                            <rect x="162" y="165" width="70" height="10" rx="5" fill="rgba(124,58,237,0.4)"/>
-                            <text x="170" y="173" font-size="6" fill="#c4b5fd" font-family="Inter,sans-serif">Réserver</text>
-                            <!-- Nav bar -->
-                            <rect x="148" y="235" width="104" height="27" fill="rgba(255,255,255,0.05)"/>
-                            <circle cx="170" cy="248" r="4" fill="rgba(255,255,255,0.3)"/><circle cx="200" cy="248" r="4" fill="#3b82f6"/><circle cx="230" cy="248" r="4" fill="rgba(255,255,255,0.3)"/>
-                            <!-- Floating notification -->
-                            <rect x="250" y="60" width="110" height="55" rx="10" fill="#1e293b" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
-                            <circle cx="270" cy="80" r="10" fill="rgba(59,130,246,0.3)"/><text x="265" y="84" font-size="10" fill="#60a5fa">✓</text>
-                            <rect x="286" y="74" width="60" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
-                            <rect x="286" y="84" width="45" height="4" rx="2" fill="rgba(255,255,255,0.12)"/>
-                            <text x="260" y="104" font-size="6" fill="rgba(255,255,255,0.3)" font-family="Inter,sans-serif">Il y a 2 min</text>
-                        </svg>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <span class="portfolio-tag">Web & Apps</span>
-                        <h3 data-i18n="portfolio.p4.title">EventHub Pro</h3>
-                        <p data-i18n="portfolio.p4.desc">Application mobile de gestion et réservation d'espaces événementiels pour professionnels.</p>
-                        <a href="#" class="portfolio-link" data-i18n="portfolio.viewproject">Voir le projet →</a>
-                    </div>
-                </div>
-
-                <!-- Project 5 — B2B Marketplace -->
-                <div class="portfolio-card reveal" data-category="b2b">
-                    <div class="portfolio-thumb">
-                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                            <defs>
-                                <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e3a5f"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
-                            </defs>
-                            <rect width="400" height="300" fill="url(#g5)"/>
-                            <!-- Browser -->
-                            <rect x="30" y="35" width="340" height="230" rx="8" fill="#0f0f2e" opacity="0.9"/>
-                            <rect x="30" y="35" width="340" height="26" rx="8" fill="#1a1a3e"/>
-                            <circle cx="48" cy="48" r="4" fill="#ef4444"/><circle cx="62" cy="48" r="4" fill="#eab308"/><circle cx="76" cy="48" r="4" fill="#22c55e"/>
-                            <!-- Search bar -->
-                            <rect x="45" y="70" width="260" height="24" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-                            <text x="60" y="86" font-size="8" fill="rgba(255,255,255,0.3)" font-family="Inter,sans-serif">Rechercher un restaurant, une salle...</text>
-                            <rect x="315" y="72" width="40" height="20" rx="10" fill="rgba(124,58,237,0.4)"/>
-                            <!-- Listing cards -->
-                            <rect x="45" y="105" width="150" height="70" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
-                            <rect x="53" y="113" width="60" height="35" rx="4" fill="rgba(124,58,237,0.15)"/>
-                            <rect x="120" y="115" width="65" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
-                            <rect x="120" y="125" width="45" height="4" rx="2" fill="rgba(255,255,255,0.12)"/>
-                            <rect x="120" y="136" width="55" height="12" rx="6" fill="rgba(124,58,237,0.3)"/>
-                            <text x="129" y="145" font-size="6.5" fill="#c4b5fd" font-family="Inter,sans-serif">Contacter</text>
-                            <rect x="205" y="105" width="150" height="70" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
-                            <rect x="213" y="113" width="60" height="35" rx="4" fill="rgba(59,130,246,0.15)"/>
-                            <rect x="280" y="115" width="65" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
-                            <rect x="280" y="125" width="45" height="4" rx="2" fill="rgba(255,255,255,0.12)"/>
-                            <rect x="280" y="136" width="55" height="12" rx="6" fill="rgba(59,130,246,0.3)"/>
-                            <text x="289" y="145" font-size="6.5" fill="#93c5fd" font-family="Inter,sans-serif">Contacter</text>
-                            <!-- Map dots -->
-                            <rect x="45" y="185" width="310" height="70" rx="6" fill="rgba(255,255,255,0.03)"/>
-                            <circle cx="100" cy="215" r="4" fill="#7c3aed" opacity="0.7"/><circle cx="180" cy="200" r="5" fill="#3b82f6" opacity="0.7"/>
-                            <circle cx="250" cy="225" r="3.5" fill="#7c3aed" opacity="0.5"/><circle cx="300" cy="210" r="4.5" fill="#3b82f6" opacity="0.6"/>
-                            <circle cx="140" cy="230" r="3" fill="#a855f7" opacity="0.4"/><circle cx="330" cy="220" r="3" fill="#60a5fa" opacity="0.5"/>
-                        </svg>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <span class="portfolio-tag">B2B</span>
-                        <h3 data-i18n="portfolio.p5.title">CorpoTable</h3>
-                        <p data-i18n="portfolio.p5.desc">Marketplace B2B connectant 150+ restaurants avec des entreprises pour des repas d'affaires.</p>
-                        <a href="#" class="portfolio-link" data-i18n="portfolio.viewproject">Voir le projet →</a>
-                    </div>
-                </div>
-
-                <!-- Project 6 — NFC Cards -->
-                <div class="portfolio-card reveal" data-category="cards">
-                    <div class="portfolio-thumb">
-                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                            <defs>
-                                <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9333ea"/><stop offset="100%" stop-color="#ec4899"/></linearGradient>
-                                <linearGradient id="nfcg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e1b4b"/><stop offset="100%" stop-color="#312e81"/></linearGradient>
-                            </defs>
-                            <rect width="400" height="300" fill="url(#g6)"/>
-                            <!-- Business card -->
-                            <rect x="40" y="70" width="200" height="120" rx="12" fill="url(#nfcg)" stroke="rgba(147,51,234,0.4)" stroke-width="1.5"/>
-                            <text x="60" y="105" font-size="14" font-weight="bold" fill="#e9d5ff" font-family="Inter,sans-serif">Sophie Martin</text>
-                            <text x="60" y="120" font-size="8" fill="rgba(233,213,255,0.6)" font-family="Inter,sans-serif">Directrice Marketing</text>
-                            <rect x="60" y="132" width="30" height="1" fill="rgba(147,51,234,0.5)"/>
-                            <text x="60" y="148" font-size="7" fill="rgba(233,213,255,0.5)" font-family="Inter,sans-serif">sophie@company.com</text>
-                            <text x="60" y="162" font-size="7" fill="rgba(233,213,255,0.5)" font-family="Inter,sans-serif">+32 489 00 00 00</text>
-                            <!-- NFC icon on card -->
-                            <g transform="translate(200,85)">
-                                <path d="M0,20 Q0,0 20,0" fill="none" stroke="rgba(233,213,255,0.3)" stroke-width="1.5"/>
-                                <path d="M-4,25 Q-4,-5 25,-5" fill="none" stroke="rgba(233,213,255,0.2)" stroke-width="1.5"/>
-                                <path d="M-8,30 Q-8,-10 30,-10" fill="none" stroke="rgba(233,213,255,0.12)" stroke-width="1.5"/>
-                                <circle cx="2" cy="22" r="3" fill="#c4b5fd"/>
-                            </g>
-                            <!-- Phone receiving NFC -->
-                            <rect x="260" y="40" width="100" height="200" rx="16" fill="#0f172a" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
-                            <rect x="290" y="48" width="40" height="5" rx="2.5" fill="rgba(255,255,255,0.1)"/>
-                            <!-- Phone screen content -->
-                            <rect x="268" y="60" width="84" height="168" fill="#111827"/>
-                            <circle cx="310" cy="105" r="22" fill="rgba(147,51,234,0.2)" stroke="rgba(147,51,234,0.4)" stroke-width="1.5"/>
-                            <text x="302" y="110" font-size="16" fill="#c4b5fd">✓</text>
-                            <rect x="282" y="138" width="56" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
-                            <rect x="288" y="150" width="44" height="4" rx="2" fill="rgba(255,255,255,0.12)"/>
-                            <rect x="280" y="168" width="60" height="18" rx="9" fill="rgba(147,51,234,0.35)"/>
-                            <text x="289" y="180" font-size="7" fill="#e9d5ff" font-family="Inter,sans-serif">Enregistré</text>
-                            <!-- NFC waves between card and phone -->
-                            <g opacity="0.5">
-                                <path d="M245,140 Q252,130 260,140" fill="none" stroke="#c4b5fd" stroke-width="1.2"/>
-                                <path d="M242,140 Q252,125 262,140" fill="none" stroke="#c4b5fd" stroke-width="1" opacity="0.6"/>
-                                <path d="M239,140 Q252,120 265,140" fill="none" stroke="#c4b5fd" stroke-width="0.8" opacity="0.3"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <span class="portfolio-tag" data-i18n="portfolio.filter.cards">Cartes</span>
-                        <h3 data-i18n="portfolio.p6.title">SmartCard NFC</h3>
-                        <p data-i18n="portfolio.p6.desc">Solution de cartes de visite et cadeaux NFC déployée pour un réseau de franchises.</p>
-                        <a href="#" class="portfolio-link" data-i18n="portfolio.viewproject">Voir le projet →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==========================================
-         TRUST / CLIENTS
-    ========================================== -->
-    <section class="trust" id="trust">
-        <div class="container">
-            <div class="trust-header reveal">
-                <div class="section-label" data-i18n="trust.label">Confiance</div>
-                <h2 class="section-title" data-i18n="trust.title">Ils nous font <span class="gradient-text">confiance</span></h2>
-            </div>
-
-            <div class="logos-row reveal">
-                <span class="client-logo">Novotel</span>
-                <span class="client-logo">L'Atelier</span>
-                <span class="client-logo">Sodexo</span>
-                <span class="client-logo">EventSquare</span>
-                <span class="client-logo">FoodCorp</span>
-                <span class="client-logo">MeetingPoint</span>
-            </div>
-
-            <div class="testimonials-grid">
-                <div class="testimonial-card reveal">
-                    <div class="testimonial-stars">
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                    </div>
-                    <p class="testimonial-text" data-i18n="trust.t1.text">"Fill Up a transformé notre manière de gérer nos événements corporate. La mise en relation B2B est d'une efficacité redoutable."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">SL</div>
-                        <div>
-                            <div class="testimonial-name">Sophie Laurent</div>
-                            <div class="testimonial-role" data-i18n="trust.t1.role">Directrice, EventSquare</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card reveal">
-                    <div class="testimonial-stars">
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                    </div>
-                    <p class="testimonial-text" data-i18n="trust.t2.text">"Nos cartes de fidélité digitales ont boosté notre rétention client de 40%. Un ROI impressionnant en moins de 3 mois."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">MR</div>
-                        <div>
-                            <div class="testimonial-name">Marc Rousseau</div>
-                            <div class="testimonial-role" data-i18n="trust.t2.role">Gérant, Bistro Parisien</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card reveal">
-                    <div class="testimonial-stars">
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                        <i data-lucide="star" style="width:16px;height:16px;fill:#facc15;stroke:none;"></i>
-                    </div>
-                    <p class="testimonial-text" data-i18n="trust.t3.text">"L'application développée par Fill Up est intuitive et performante. Nos équipes l'ont adoptée en un temps record."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">AK</div>
-                        <div>
-                            <div class="testimonial-name">Amina Keita</div>
-                            <div class="testimonial-role" data-i18n="trust.t3.role">CTO, FoodCorp</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==========================================
-         CTA / CONTACT
-    ========================================== -->
+    <!-- CONTACT -->
     <section class="cta-section" id="contact">
         <div class="cta-bg"></div>
         <div class="container">
             <div class="cta-content reveal">
-                <div class="section-label" data-i18n="cta.label">Contact</div>
-                <h2 class="section-title" data-i18n="cta.title">Prêt à transformer <span class="gradient-text">votre business</span> ?</h2>
-                <p class="section-subtitle" data-i18n="cta.subtitle">Discutons de votre projet et trouvons ensemble les meilleures solutions digitales pour votre activité.</p>
+                <h2 class="section-title" data-i18n="cta.title">Discutons de <span class="gradient-text">votre projet</span></h2>
+                <p class="section-subtitle" data-i18n="cta.subtitle">Un besoin digital ? Ecrivez-nous ou appelez — on repond vite.</p>
 
-                <form class="contact-form" onsubmit="event.preventDefault();">
-                    <div class="form-row">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <a href="mailto:contact@goopti.be" class="contact-item">
+                            <div class="contact-icon"><i data-lucide="mail" style="width:18px;height:18px;"></i></div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">contact@goopti.be</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/32489923085" target="_blank" class="contact-item">
+                            <div class="contact-icon"><i data-lucide="message-circle" style="width:18px;height:18px;"></i></div>
+                            <div>
+                                <span class="contact-label">WhatsApp</span>
+                                <span class="contact-value">+32 489 92 30 85</span>
+                            </div>
+                        </a>
+                        <a href="tel:+32489923085" class="contact-item">
+                            <div class="contact-icon"><i data-lucide="phone" style="width:18px;height:18px;"></i></div>
+                            <div>
+                                <span class="contact-label" data-i18n="cta.phone">Telephone</span>
+                                <span class="contact-value">+32 489 92 30 85</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <form class="contact-form" onsubmit="event.preventDefault();">
                         <input type="text" class="form-input" data-i18n-placeholder="cta.form.name" placeholder="Votre nom">
                         <input type="email" class="form-input" data-i18n-placeholder="cta.form.email" placeholder="Votre email">
-                    </div>
-                    <input type="text" class="form-input" data-i18n-placeholder="cta.form.subject" placeholder="Sujet">
-                    <textarea class="form-input" data-i18n-placeholder="cta.form.message" placeholder="Votre message..."></textarea>
-                    <button type="submit" class="btn btn-primary form-submit" data-i18n="cta.form.send">Envoyer le message</button>
-                </form>
-
-                <div class="quick-contact">
-                    <a href="mailto:contact@fillup.digital">
-                        <i data-lucide="mail" style="width:16px;height:16px;"></i>
-                        contact@fillup.digital
-                    </a>
-                    <a href="https://wa.me/32489923085" target="_blank">
-                        <i data-lucide="message-circle" style="width:16px;height:16px;"></i>
-                        Matthew — WhatsApp
-                    </a>
-                    <a href="https://wa.me/32485227595" target="_blank">
-                        <i data-lucide="message-circle" style="width:16px;height:16px;"></i>
-                        Yaroslav — WhatsApp
-                    </a>
+                        <textarea class="form-input" data-i18n-placeholder="cta.form.message" placeholder="Decrivez votre besoin..."></textarea>
+                        <button type="submit" class="btn btn-primary form-submit" data-i18n="cta.form.send">Envoyer</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ==========================================
-         FOOTER
-    ========================================== -->
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo">Fill<span>Up</span></div>
-                    <p data-i18n="footer.desc">Votre partenaire digital pour des solutions innovantes. Nous transformons vos idées en expériences numériques performantes.</p>
-                    <div class="footer-social">
-                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:18px;height:18px;"></i></a>
-                        <a href="#" aria-label="Instagram"><i data-lucide="instagram" style="width:18px;height:18px;"></i></a>
-                        <a href="#" aria-label="X / Twitter"><i data-lucide="twitter" style="width:18px;height:18px;"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-col">
-                    <h4 data-i18n="footer.services">Services</h4>
-                    <ul>
-                        <li><a href="#services" data-i18n="services.card1.title">Connexion & Partenariats</a></li>
-                        <li><a href="#services" data-i18n="services.card2.title">Cartes digitales</a></li>
-                        <li><a href="#services" data-i18n="services.card3.title">Contenu & audiovisuel</a></li>
-                        <li><a href="#services" data-i18n="services.card4.title">Développement sur mesure</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4 data-i18n="footer.company">Entreprise</h4>
-                    <ul>
-                        <li><a href="#" data-i18n="footer.about">À propos</a></li>
-                        <li><a href="#" data-i18n="footer.careers">Carrières</a></li>
-                        <li><a href="#" data-i18n="footer.blog">Blog</a></li>
-                        <li><a href="#" data-i18n="footer.legal">Mentions légales</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="mailto:contact@fillup.digital">contact@fillup.digital</a></li>
-                        <li><a href="tel:+32489923085">Matthew: +32 489 92 30 85</a></li>
-                        <li><a href="tel:+32485227595">Yaroslav: +32 485 22 75 95</a></li>
-                        <li><a href="#">Belgique</a></li>
-                    </ul>
-                </div>
-            </div>
-
             <div class="footer-bottom">
-                <p>&copy; 2025 Fill Up. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
-                <p data-i18n="footer.made">Fait avec passion en Belgique.</p>
+                <div class="logo">G<span class="eye">o</span>_<span><span class="eye eye-big">O</span>pti</span></div>
+                <p>&copy; 2026 Go_Opti. <span data-i18n="footer.rights">Tous droits reserves.</span></p>
             </div>
         </div>
     </footer>

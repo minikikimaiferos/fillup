@@ -1,5 +1,5 @@
 /**
- * Fill Up — Navbar behavior
+ * Go_Opti — Navbar behavior
  * Scroll effect + mobile menu
  */
 
