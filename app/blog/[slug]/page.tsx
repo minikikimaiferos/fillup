@@ -13,14 +13,16 @@ interface BlogPostPageProps {
 
 export default function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = use(params);
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
     notFound();
   }
 
-  const content = post.content[language];
+  // Fallback to French if the requested language isn't available yet
+  const content = post.content[language] ?? post.content.fr;
+  const locale = t('blog.locale');
 
   // Convert markdown-like body to HTML
   const bodyHtml = content.body
@@ -39,11 +41,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
         <div className="container">
           <div className="blog-article-header">
             <Link href="/blog" className="blog-back-link">
-              ← {language === 'fr' ? 'Retour au blog' : 'Back to blog'}
+              {t('blog.backToBlog')}
             </Link>
             <div className="blog-article-meta">
-              <span>{new Date(post.date).toLocaleDateString(language === 'fr' ? 'fr-BE' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-              <span>{post.readTime} {language === 'fr' ? 'de lecture' : 'read'}</span>
+              <span>{new Date(post.date).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              <span>{post.readTime} {t('blog.readTime')}</span>
             </div>
             <h1 className="blog-article-title">{content.title}</h1>
             <p className="blog-article-excerpt">{content.excerpt}</p>
@@ -61,13 +63,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               ))}
             </div>
             <div className="blog-article-cta">
-              <p>
-                {language === 'fr'
-                  ? 'Besoin d\'aide pour mettre ça en place ?'
-                  : 'Need help implementing this?'}
-              </p>
+              <p>{t('blog.needHelp')}</p>
               <Link href="https://wa.me/32489923085" target="_blank" rel="noopener" className="btn btn-primary">
-                {language === 'fr' ? 'Parlons-en' : 'Let\'s Talk'}
+                {t('blog.cta')}
               </Link>
             </div>
           </div>

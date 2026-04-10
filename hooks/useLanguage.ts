@@ -11,7 +11,7 @@ import {
 } from 'react';
 import { translations } from '@/lib/i18n';
 
-type Language = 'fr' | 'en';
+export type Language = 'fr' | 'en' | 'nl';
 
 interface LanguageContextType {
   language: Language;

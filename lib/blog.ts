@@ -5,6 +5,7 @@ export interface BlogPost {
   content: {
     fr: BlogPostContent;
     en: BlogPostContent;
+    nl?: BlogPostContent;
   };
 }
 

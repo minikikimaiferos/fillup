@@ -22,7 +22,8 @@ export default function ServicePage({ params }: ServicePageProps) {
     notFound();
   }
 
-  const content = service.content[language];
+  // Fallback to French if the requested language isn't available yet
+  const content = service.content[language] ?? service.content.fr;
 
   return (
     <main>

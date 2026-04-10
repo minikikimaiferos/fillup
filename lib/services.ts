@@ -5,6 +5,7 @@ export interface Service {
   content: {
     fr: ServiceContent;
     en: ServiceContent;
+    nl?: ServiceContent;
   };
 }
 
@@ -126,6 +127,58 @@ export const services: Service[] = [
           "ia-automatisation",
         ],
       },
+      nl: {
+        title: "Digitale Optimalisatie",
+        tagline:
+          "Vervang tijdrovende taken door slimme tools die het werk voor u doen",
+        whatIs:
+          "We identificeren de taken die uw dagelijks tijd kosten en vervangen ze door AI-tools die we beheersen of door beproefde methodieken. Het doel is simpel: dezelfde resultaten — of beter — met minder inspanning. Plugin-installatie, configuratie van automatiseringstools, optimalisatie van uw bestaande workflows. We veranderen niet wat werkt, we maken het sneller en efficiënter.",
+        benefits: [
+          {
+            title: "Minder inspanning, zelfde resultaten",
+            desc: "Voorheen tijdrovende taken vervangen door AI-tools en geoptimaliseerde processen die autonoom draaien.",
+          },
+          {
+            title: "Beheerste AI-tools",
+            desc: "We testen geen gadgets — we gebruiken tools die we kennen, gevalideerd hebben en voor uw geval kunnen configureren.",
+          },
+          {
+            title: "Plugins & integraties",
+            desc: "Installatie van plugins en extensies die in uw bestaande tools integreren om ze krachtiger te maken.",
+          },
+          {
+            title: "Beproefde methodieken",
+            desc: "Geteste en bevestigde benaderingen, geen experimenten. Elke optimalisatie is gebaseerd op wat al werkt.",
+          },
+        ],
+        approach: [
+          {
+            step: "Workflow-analyse",
+            desc: "We identificeren repetitieve en tijdrovende taken in uw huidige werking.",
+          },
+          {
+            step: "Toolselectie",
+            desc: "We kiezen de AI-tools en methodieken die het beste bij elke geïdentificeerde taak passen.",
+          },
+          {
+            step: "Configuratie & plugins",
+            desc: "Tool-installatie, plugin-configuratie en maatwerk voor uw omgeving.",
+          },
+          {
+            step: "Opleiding",
+            desc: "We leren u hoe elke tool te gebruiken zodat u dagelijks autonoom bent.",
+          },
+          {
+            step: "Opvolging & bijsturing",
+            desc: "We meten de reële tijdwinst en sturen de tools bij om de efficiëntie te maximaliseren.",
+          },
+        ],
+        relatedSlugs: [
+          "developpement-web",
+          "ads-social-media",
+          "ia-automatisation",
+        ],
+      },
     },
   },
   {
@@ -136,15 +189,15 @@ export const services: Service[] = [
         title: "Développement Web & Apps",
         tagline: "Des sites et applications qui servent vos objectifs business",
         whatIs:
-          "On conçoit et développe des sites web, landing pages, applications et plateformes sur mesure. Mais on va plus loin : on crée aussi des web apps sur mesure pour répondre à des besoins spécifiques — bots d'automatisation, outils de scraping, cartes digitales interactives, applications métier pour gérer vos opérations ou celles de vos clients. Chaque projet est pensé pour convertir : architecture SEO-friendly, performance technique, intégration avec vos outils existants (formulaires de contact, systèmes de réservation, outils d'emailing). On s'assure aussi que vos pages de destination sont prêtes à accueillir le trafic de vos campagnes publicitaires.",
+          "On conçoit et développe des sites web, landing pages, applications et plateformes sur mesure. Mais on va plus loin : on crée aussi des web apps sur mesure pour répondre à des besoins spécifiques — bots d'automatisation, outils de scraping, cartes digitales interactives, applications métier pour gérer vos opérations ou celles de vos clients. Chaque projet est pensé pour convertir et vous positionner comme la référence numéro un dans votre domaine : architecture optimisée pour le référencement, performance technique poussée, intégration avec vos outils existants (formulaires de contact, systèmes de réservation, outils d'emailing). On s'assure aussi que vos pages de destination sont prêtes à accueillir le trafic de vos campagnes publicitaires.",
         benefits: [
           {
             title: "Pensé pour convertir",
             desc: "Pages de destination optimisées, formulaires connectés, parcours utilisateur fluide du clic à la prise de contact.",
           },
           {
-            title: "SEO intégré dès le départ",
-            desc: "Structure technique pensée pour le référencement : balises, vitesse, maillage interne, indexation.",
+            title: "Référencement intégré dès le départ",
+            desc: "Structure technique pensée pour vous hisser en tête des résultats : balises, vitesse, maillage interne, indexation.",
           },
           {
             title: "Connecté à vos outils",
@@ -187,15 +240,15 @@ export const services: Service[] = [
         title: "Web & App Development",
         tagline: "Websites and apps that serve your business goals",
         whatIs:
-          "We design and develop custom websites, landing pages, applications and platforms. But we go further: we also build custom web apps for specific needs — automation bots, scraping tools, interactive digital maps, business applications to manage your operations or your clients'. Every project is built to convert: SEO-friendly architecture, technical performance, integration with your existing tools (contact forms, booking systems, emailing platforms). We also ensure your landing pages are ready to receive traffic from your ad campaigns.",
+          "We design and develop custom websites, landing pages, applications and platforms. But we go further: we also build custom web apps for specific needs — automation bots, scraping tools, interactive digital maps, business applications to manage your operations or your clients'. Every project is built to convert and to position you as the number-one reference in your field: search-optimized architecture, deep technical performance, integration with your existing tools (contact forms, booking systems, emailing platforms). We also ensure your landing pages are ready to receive traffic from your ad campaigns.",
         benefits: [
           {
             title: "Built to convert",
             desc: "Optimized landing pages, connected forms, smooth user journey from click to contact.",
           },
           {
-            title: "SEO baked in from day one",
-            desc: "Technical structure built for search: tags, speed, internal linking, indexation.",
+            title: "Search visibility from day one",
+            desc: "Technical structure built to climb to the top of results: tags, speed, internal linking, indexation.",
           },
           {
             title: "Connected to your tools",
@@ -234,6 +287,57 @@ export const services: Service[] = [
           "ia-automatisation",
         ],
       },
+      nl: {
+        title: "Web & App Development",
+        tagline: "Websites en apps die uw businessdoelen dienen",
+        whatIs:
+          "We ontwerpen en ontwikkelen websites op maat, landingspagina's, applicaties en platformen. Maar we gaan verder: we bouwen ook custom web apps voor specifieke behoeften — automatiseringsbots, scraping-tools, interactieve digitale kaarten, business-applicaties om uw activiteiten of die van uw klanten te beheren. Elk project is gebouwd om te converteren en u te positioneren als dé referentie nummer één in uw vakgebied: architectuur geoptimaliseerd voor zoekmachines, doorgedreven technische prestaties, integratie met uw bestaande tools (contactformulieren, reserveringssystemen, e-mailplatformen). We zorgen er ook voor dat uw landingspagina's klaar zijn om het verkeer van uw advertentiecampagnes te ontvangen.",
+        benefits: [
+          {
+            title: "Gebouwd om te converteren",
+            desc: "Geoptimaliseerde landingspagina's, verbonden formulieren, vloeiende gebruikerservaring van klik tot contact.",
+          },
+          {
+            title: "Referencering vanaf dag één",
+            desc: "Technische structuur ontworpen om u naar de top van de resultaten te brengen: tags, snelheid, interne links, indexering.",
+          },
+          {
+            title: "Verbonden met uw tools",
+            desc: "Integratie met uw e-mailplatformen, CRM, reserveringstools en trackingsystemen.",
+          },
+          {
+            title: "Schaalbaar",
+            desc: "Schone code en modulaire architectuur om functies toe te voegen zonder alles opnieuw te bouwen.",
+          },
+        ],
+        approach: [
+          {
+            step: "Scoping",
+            desc: "Samen definiëren we doelen, functies en technische beperkingen.",
+          },
+          {
+            step: "Design & mockups",
+            desc: "Visuele prototypes gevalideerd met u voordat er één regel code geschreven wordt.",
+          },
+          {
+            step: "Development",
+            desc: "Gebouwd met moderne technologieën, continue tests en performance-optimalisatie.",
+          },
+          {
+            step: "Integraties",
+            desc: "Verbinding met uw tools: contactformulieren, e-mailing, boekingen, analytics.",
+          },
+          {
+            step: "Lancering & support",
+            desc: "Deployment, eindcontroles en continue ondersteuning voor toekomstige ontwikkelingen.",
+          },
+        ],
+        relatedSlugs: [
+          "optimisation-digitale",
+          "ads-social-media",
+          "ia-automatisation",
+        ],
+      },
     },
   },
   {
@@ -243,47 +347,47 @@ export const services: Service[] = [
       fr: {
         title: "Audiovisuel & Production Créative",
         tagline:
-          "Des créatives qui exploitent ce qui fonctionne déjà",
+          "Une équipe dédiée à la création de contenu qui performe",
         whatIs:
-          "On produit l'intégralité de vos créatives en exploitant l'IA et des schémas déjà existants et fonctionnels. On analyse les formats, les hooks et les structures qui marchent chez les concurrents et dans votre secteur, puis on les adapte à votre marque avec des outils de génération IA. Le résultat : des visuels et vidéos qui résolvent les mêmes problématiques que les produits concurrents — mais pour vous, plus vite et à moindre coût. Formats TikTok, Reels, visuels publicitaires, bannières — tout est produit en continu pour alimenter vos campagnes.",
+          "On a une équipe spécialisée dans la création audiovisuelle, capable de gérer plusieurs types de shootings selon votre budget — du tournage physique sur le terrain à la production digitale en studio ou à distance. Notre force, c'est de produire du contenu taillé pour les réseaux : reels, courts formats, hooks qui accrochent dès la première seconde, visuels publicitaires et bannières. On analyse les formats qui performent dans votre secteur, on en tire les structures gagnantes, puis on les adapte à votre marque avec une vraie direction artistique. Et pour accélérer la cadence, on s'appuie aussi sur des outils d'IA qui nous simplifient la vie et démultiplient le volume livré sans sacrifier la qualité.",
         benefits: [
           {
-            title: "Créatives full IA",
-            desc: "Production complète de visuels et vidéos via des outils d'IA que l'on maîtrise, pour un volume élevé sans sacrifier la qualité.",
+            title: "Équipe experte en création de contenu",
+            desc: "Une vraie équipe spécialisée en audiovisuel, pas juste des outils — des créateurs qui savent raconter votre marque en images.",
           },
           {
-            title: "Schémas éprouvés",
-            desc: "On exploite des formats et structures qui fonctionnent déjà dans votre secteur — pas de devinettes, que du testé.",
+            title: "Shootings physiques & digitaux",
+            desc: "On s'adapte à votre budget : tournage terrain avec matériel pro ou production 100% digitale, selon le format qui sert le mieux votre message.",
           },
           {
-            title: "Rapidité & volume",
-            desc: "Des créatives produites en continu pour alimenter vos campagnes sans délai ni goulot d'étranglement.",
+            title: "Spécialistes du short form",
+            desc: "Reels, TikTok, courts formats, hooks d'accroche — tout ce qui fait la dynamique des réseaux aujourd'hui, on le maîtrise.",
           },
           {
-            title: "Avantage concurrentiel",
-            desc: "On identifie ce qui marche chez vos concurrents et on l'adapte à votre image pour capter la même audience.",
+            title: "Volume & rapidité grâce à l'IA",
+            desc: "On combine savoir-faire humain et outils d'IA pour alimenter vos campagnes en continu, sans goulot d'étranglement.",
           },
         ],
         approach: [
           {
-            step: "Veille concurrentielle",
-            desc: "Analyse des créatives, hooks et formats qui performent dans votre secteur et chez vos concurrents.",
+            step: "Brief créatif",
+            desc: "On cadre votre besoin, votre marque et le type de shooting adapté à votre budget et vos objectifs.",
           },
           {
-            step: "Adaptation des schémas",
-            desc: "On reprend les structures qui fonctionnent et on les adapte à votre marque et votre message.",
+            step: "Veille & benchmarks",
+            desc: "Analyse des hooks, formats et structures qui performent dans votre secteur et chez vos concurrents.",
           },
           {
-            step: "Production IA",
-            desc: "Génération des visuels et vidéos avec nos outils d'IA pour un rendu rapide et professionnel.",
+            step: "Shooting & production",
+            desc: "Tournage physique ou digital selon le projet, avec notre équipe spécialisée en création audiovisuelle.",
           },
           {
-            step: "Déclinaison multi-format",
-            desc: "Adaptation en formats TikTok, Reels, stories, bannières et visuels publicitaires.",
+            step: "Montage & déclinaisons",
+            desc: "Montage dynamique, déclinaison en reels, courts formats, stories, bannières et visuels publicitaires.",
           },
           {
-            step: "Livraison continue",
-            desc: "Un flux régulier de créatives prêtes à l'emploi pour vos campagnes et vos réseaux.",
+            step: "Accélération IA",
+            desc: "Nos outils d'IA viennent en appui pour multiplier les variantes, accélérer les itérations et alimenter vos campagnes en continu.",
           },
         ],
         relatedSlugs: [
@@ -294,47 +398,98 @@ export const services: Service[] = [
       },
       en: {
         title: "Audiovisual & Creative Production",
-        tagline: "Creatives that leverage what already works",
+        tagline: "A dedicated team for content that performs",
         whatIs:
-          "We produce all your creatives using AI and proven, existing frameworks. We analyze the formats, hooks and structures that work for competitors and in your industry, then adapt them to your brand with AI generation tools. The result: visuals and videos that solve the same problems as competing products — but for you, faster and at lower cost. TikTok formats, Reels, ad visuals, banners — everything is produced continuously to fuel your campaigns.",
+          "We have a team specialized in audiovisual creation, capable of handling several types of shoots depending on your budget — from on-location physical shoots to studio or remote digital production. Our strength is producing content tailored for social: reels, short-form videos, hooks that grab attention in the first second, ad visuals and banners. We analyze the formats that perform in your industry, extract the winning structures, then adapt them to your brand with real creative direction. And to speed things up, we also leverage AI tools that make our lives easier and multiply the output without sacrificing quality.",
         benefits: [
           {
-            title: "Full AI creatives",
-            desc: "Complete visual and video production via AI tools we've mastered, for high volume without sacrificing quality.",
+            title: "Expert content creation team",
+            desc: "A real team specialized in audiovisual work, not just tools — creators who know how to tell your brand's story in images.",
           },
           {
-            title: "Proven frameworks",
-            desc: "We leverage formats and structures that already work in your industry — no guesswork, only tested approaches.",
+            title: "Physical & digital shoots",
+            desc: "We adapt to your budget: on-location shoots with pro gear or fully digital production, whichever format best serves your message.",
           },
           {
-            title: "Speed & volume",
-            desc: "Creatives produced continuously to fuel your campaigns without delays or bottlenecks.",
+            title: "Short-form specialists",
+            desc: "Reels, TikTok, short formats, attention-grabbing hooks — everything that drives social today, we've got it covered.",
           },
           {
-            title: "Competitive edge",
-            desc: "We identify what works for your competitors and adapt it to your brand to capture the same audience.",
+            title: "Volume & speed with AI",
+            desc: "We combine human craft with AI tools to fuel your campaigns continuously, without bottlenecks.",
           },
         ],
         approach: [
           {
-            step: "Competitive analysis",
-            desc: "Analysis of creatives, hooks and formats that perform in your industry and among your competitors.",
+            step: "Creative brief",
+            desc: "We frame your needs, your brand and the type of shoot that fits your budget and goals.",
           },
           {
-            step: "Framework adaptation",
-            desc: "We take structures that work and adapt them to your brand and message.",
+            step: "Research & benchmarks",
+            desc: "Analysis of hooks, formats and structures that perform in your industry and among your competitors.",
           },
           {
-            step: "AI production",
-            desc: "Visual and video generation with our AI tools for fast, professional output.",
+            step: "Shoot & production",
+            desc: "Physical or digital shoot depending on the project, with our team specialized in audiovisual creation.",
           },
           {
-            step: "Multi-format adaptation",
-            desc: "Adaptation into TikTok, Reels, stories, banners and ad visuals.",
+            step: "Editing & variations",
+            desc: "Dynamic editing, declination into reels, short formats, stories, banners and ad visuals.",
           },
           {
-            step: "Continuous delivery",
-            desc: "A steady flow of ready-to-use creatives for your campaigns and social media.",
+            step: "AI acceleration",
+            desc: "Our AI tools come in as support to multiply variants, speed up iterations and keep your campaigns fueled.",
+          },
+        ],
+        relatedSlugs: [
+          "ads-social-media",
+          "developpement-web",
+          "optimisation-digitale",
+        ],
+      },
+      nl: {
+        title: "Audiovisueel & Creatieve Productie",
+        tagline: "Een toegewijd team voor content die presteert",
+        whatIs:
+          "We hebben een team gespecialiseerd in audiovisuele creatie, in staat om verschillende soorten shoots te beheren afhankelijk van uw budget — van fysieke opnames op locatie tot digitale productie in studio of op afstand. Onze kracht is het produceren van content op maat voor sociale media: reels, short-form video's, hooks die vanaf de eerste seconde de aandacht trekken, advertentievisuals en banners. We analyseren de formats die in uw sector presteren, halen de winnende structuren eruit en passen ze aan uw merk aan met echte artistieke regie. En om het tempo te verhogen, leunen we ook op AI-tools die ons leven makkelijker maken en het geleverde volume vermenigvuldigen zonder in te boeten op kwaliteit.",
+        benefits: [
+          {
+            title: "Expert contentcreatieteam",
+            desc: "Een echt team gespecialiseerd in audiovisueel werk, niet alleen tools — creators die uw merk in beeld weten te brengen.",
+          },
+          {
+            title: "Fysieke & digitale shoots",
+            desc: "We passen ons aan uw budget aan: opnames op locatie met professionele apparatuur of volledig digitale productie, wat uw boodschap het beste dient.",
+          },
+          {
+            title: "Short-form specialisten",
+            desc: "Reels, TikTok, korte formats, aandachttrekkende hooks — alles wat sociale media vandaag drijft, hebben we in huis.",
+          },
+          {
+            title: "Volume & snelheid dankzij AI",
+            desc: "We combineren menselijk vakmanschap met AI-tools om uw campagnes continu te voeden, zonder knelpunten.",
+          },
+        ],
+        approach: [
+          {
+            step: "Creatieve briefing",
+            desc: "We kaderen uw behoeften, uw merk en het type shoot dat past bij uw budget en doelen.",
+          },
+          {
+            step: "Onderzoek & benchmarks",
+            desc: "Analyse van hooks, formats en structuren die presteren in uw sector en bij uw concurrenten.",
+          },
+          {
+            step: "Shoot & productie",
+            desc: "Fysieke of digitale opname afhankelijk van het project, met ons team gespecialiseerd in audiovisuele creatie.",
+          },
+          {
+            step: "Montage & varianten",
+            desc: "Dynamische montage, uitwerking in reels, korte formats, stories, banners en advertentievisuals.",
+          },
+          {
+            step: "AI-versnelling",
+            desc: "Onze AI-tools komen ter ondersteuning om varianten te vermenigvuldigen, iteraties te versnellen en uw campagnes gevoed te houden.",
           },
         ],
         relatedSlugs: [
@@ -451,6 +606,57 @@ export const services: Service[] = [
           "ads-social-media",
         ],
       },
+      nl: {
+        title: "AI & Automatisering",
+        tagline: "Automatiseer wat kan, focus op wat telt",
+        whatIs:
+          "We zetten automatiseringssystemen en AI-tools op om uw werking te versnellen. Geautomatiseerde prospectie, data-extractie, verrijking van contactdatabases, e-mailverificatie, slim CRM, geplande opvolgingen — we bouwen workflows die continu draaien zonder manuele tussenkomst. We gebruiken AI ook voor contentgeneratie, data-analyse en optimalisatie van uw interne processen.",
+        benefits: [
+          {
+            title: "Prospectie op grote schaal",
+            desc: "Geautomatiseerde extractie van prospects uit directories, professionele netwerken en openbare databases.",
+          },
+          {
+            title: "Schone, bruikbare data",
+            desc: "Automatische verrijking en verificatie van uw contacten voor campagnes die hun doel bereiken.",
+          },
+          {
+            title: "Autonome workflows",
+            desc: "E-mailsequenties, follow-ups en opvolging die zonder manuele tussenkomst draaien.",
+          },
+          {
+            title: "Tijd vrijgemaakt",
+            desc: "Minder repetitieve taken voor uw team, meer tijd voor waardevolle interacties.",
+          },
+        ],
+        approach: [
+          {
+            step: "Proces-mapping",
+            desc: "We identificeren repetitieve taken, knelpunten en automatiseringskansen.",
+          },
+          {
+            step: "Tool-installatie",
+            desc: "Configuratie van extractie-, verrijkings-, verificatie- en sequencingtools.",
+          },
+          {
+            step: "Workflow-opbouw",
+            desc: "Creatie van automatiseringsketens met triggers, condities en acties.",
+          },
+          {
+            step: "Opleiding",
+            desc: "Uw team leert de automatiseringen dagelijks te beheren en bij te sturen.",
+          },
+          {
+            step: "Continue optimalisatie",
+            desc: "Performance-opvolging, afstelling van sequenties en iteratieve verbetering.",
+          },
+        ],
+        relatedSlugs: [
+          "optimisation-digitale",
+          "secretariat-b2b",
+          "ads-social-media",
+        ],
+      },
     },
   },
   {
@@ -460,13 +666,13 @@ export const services: Service[] = [
       fr: {
         title: "Ads & Social Media",
         tagline:
-          "Des campagnes publicitaires qui génèrent des résultats mesurables",
+          "SEO, SEA, GEO : être visible partout où vos clients cherchent",
         whatIs:
-          "On crée et pilote vos campagnes publicitaires sur Google Ads, Meta (Facebook/Instagram) et TikTok. Recherche de mots-clés, rédaction des annonces, ciblage par zone géographique et par audience, gestion du budget, A/B testing et optimisation continue. On démarre avec des campagnes de recherche ciblées pour capter les intentions d'achat, puis on élargit progressivement vers les réseaux sociaux pour la notoriété et le retargeting.",
+          "On crée et pilote vos campagnes publicitaires sur Google Ads, Meta (Facebook/Instagram) et TikTok, mais on va plus loin que la pub classique. On travaille les trois leviers de visibilité modernes : le SEO (référencement naturel sur Google), le SEA (campagnes payantes ciblées) et le GEO (Generative Engine Optimization) — c'est-à-dire les techniques qu'on développe pour placer nos clients en tête des réponses des moteurs IA comme ChatGPT, Perplexity ou Gemini. Parce que demain, vos clients ne chercheront plus uniquement sur Google. Recherche de mots-clés, rédaction des annonces, ciblage géographique et par audience, gestion du budget, A/B testing et optimisation continue — on couvre toute la chaîne.",
         benefits: [
           {
-            title: "Résultats rapides",
-            desc: "Google Ads capte les recherches actives — vous êtes visible dès le premier jour auprès de gens qui cherchent vos services.",
+            title: "Visible sur Google et les IA",
+            desc: "On combine SEO, SEA et GEO pour que vous apparaissiez à la fois dans les résultats Google classiques et dans les réponses des moteurs IA qui prennent de l'ampleur.",
           },
           {
             title: "Budget maîtrisé",
@@ -516,13 +722,13 @@ export const services: Service[] = [
       en: {
         title: "Ads & Social Media",
         tagline:
-          "Ad campaigns that generate measurable results",
+          "SEO, SEA, GEO: be visible wherever your customers search",
         whatIs:
-          "We create and manage your advertising campaigns on Google Ads, Meta (Facebook/Instagram) and TikTok. Keyword research, ad copywriting, geographic and audience targeting, budget management, A/B testing and continuous optimization. We start with targeted search campaigns to capture purchase intent, then gradually expand to social media for awareness and retargeting.",
+          "We create and manage your advertising campaigns on Google Ads, Meta (Facebook/Instagram) and TikTok, but we go further than classic ads. We work the three modern visibility levers: SEO (organic search on Google), SEA (targeted paid campaigns) and GEO (Generative Engine Optimization) — the techniques we're developing to place our clients at the top of AI engine answers like ChatGPT, Perplexity or Gemini. Because tomorrow, your customers won't only be searching on Google. Keyword research, ad copywriting, geographic and audience targeting, budget management, A/B testing and continuous optimization — we cover the full chain.",
         benefits: [
           {
-            title: "Fast results",
-            desc: "Google Ads captures active searches — you're visible from day one to people looking for your services.",
+            title: "Visible on Google and AI engines",
+            desc: "We combine SEO, SEA and GEO so you appear in classic Google results and in the answers of the AI engines that are taking over.",
           },
           {
             title: "Controlled budget",
@@ -569,6 +775,62 @@ export const services: Service[] = [
           "developpement-web",
         ],
       },
+      nl: {
+        title: "Ads & Social Media",
+        tagline:
+          "SEO, SEA, GEO: zichtbaar overal waar uw klanten zoeken",
+        whatIs:
+          "We creëren en beheren uw advertentiecampagnes op Google Ads, Meta (Facebook/Instagram) en TikTok, maar we gaan verder dan klassieke advertenties. We bewerken de drie moderne zichtbaarheidshefbomen: SEO (organische zoekresultaten op Google), SEA (gerichte betaalde campagnes) en GEO (Generative Engine Optimization) — de technieken die we ontwikkelen om onze klanten bovenaan de antwoorden van AI-engines zoals ChatGPT, Perplexity of Gemini te plaatsen. Want morgen zoeken uw klanten niet langer alleen op Google. Zoekwoordenonderzoek, advertentietekst, geografische en doelgroepgerichte targeting, budgetbeheer, A/B-testen en continue optimalisatie — we dekken de volledige keten.",
+        benefits: [
+          {
+            title: "Zichtbaar op Google en AI-engines",
+            desc: "We combineren SEO, SEA en GEO zodat u zowel in de klassieke Google-resultaten als in de antwoorden van de opkomende AI-engines verschijnt.",
+          },
+          {
+            title: "Gecontroleerd budget",
+            desc: "We beginnen klein, testen, optimaliseren en schalen wat werkt. Elke euro wordt getraceerd.",
+          },
+          {
+            title: "Chirurgische targeting",
+            desc: "Geografische zone, uren, trefwoorden, interesses — we bereiken de juiste mensen op het juiste moment.",
+          },
+          {
+            title: "Transparante rapportering",
+            desc: "Regelmatige rapporten met kost per lead, conversiepercentage en concrete aanbevelingen.",
+          },
+        ],
+        approach: [
+          {
+            step: "Strategie & trefwoorden",
+            desc: "Marktanalyse, zoekwoordenonderzoek en definitie van de advertentiepositionering.",
+          },
+          {
+            step: "Campagnecreatie",
+            desc: "Account-setup, advertentietekst, targeting- en budgetconfiguratie.",
+          },
+          {
+            step: "Creatieve productie",
+            desc: "Advertentievisuals geproduceerd en aangepast voor elk platform en elke doelgroep.",
+          },
+          {
+            step: "Lancering & monitoring",
+            desc: "Activering van campagnes met dagelijkse performance-opvolging.",
+          },
+          {
+            step: "Optimalisatie & schaling",
+            desc: "A/B-testen, bijstelling van biedingen, herverdeling van budget naar de beste resultaten.",
+          },
+          {
+            step: "Rapportering",
+            desc: "Regelmatige reviews met KPI's, inzichten en actieplan voor de volgende periode.",
+          },
+        ],
+        relatedSlugs: [
+          "audiovisuel",
+          "optimisation-digitale",
+          "developpement-web",
+        ],
+      },
     },
   },
   {
@@ -577,47 +839,47 @@ export const services: Service[] = [
     content: {
       fr: {
         title: "Secrétariat & Gestion B2B",
-        tagline: "La prospection et l'administratif, gérés pour vous",
+        tagline: "L'approche directe : une base de données qualifiée et une secrétaire qui parle à vos prospects",
         whatIs:
-          "On prend en charge votre prospection commerciale et votre gestion administrative. Cold emailing, relances téléphoniques, gestion du CRM, suivi des prospects, prise de rendez-vous, gestion des réservations et correspondances clients. On met en place un process structuré avec des objectifs hebdomadaires clairs : nombre d'emails envoyés, taux de réponse, appels effectués, RDV décrochés. Vous gardez le contrôle, on fait tourner la machine.",
+          "Parfois, la meilleure approche n'est pas digitale — elle est directe. On dispose d'une large base de données d'entreprises que nous avons récoltée, triée et filtrée pour couvrir de nombreux secteurs et zones géographiques. Notre secrétaire dédiée prend directement contact avec ces entreprises pour mettre vos produits et services en avant, de manière locale et ciblée. C'est une approche qui vient casser tout le côté purement digital qu'on déploie par ailleurs : un vrai contact humain, avec une voix, une relation, un suivi. On adapte les listes et l'approche en fonction de vos demandes — votre cible, votre zone, votre pitch. Vous gardez le contrôle, on actionne le terrain.",
         benefits: [
           {
-            title: "Prospection active",
-            desc: "Cold emails quotidiens, relances téléphoniques et suivi rigoureux de chaque prospect dans le CRM.",
+            title: "Base de données qualifiée",
+            desc: "Une base d'entreprises B2B déjà récoltée, triée et filtrée, prête à être exploitée et adaptée à votre cible.",
           },
           {
-            title: "Pipeline commercial structuré",
-            desc: "Un fichier de prospection enrichi en continu avec des contacts qualifiés et un suivi clair de chaque étape.",
+            title: "Approche directe & humaine",
+            desc: "Une secrétaire dédiée qui prend contact en direct avec vos prospects — le contre-pied de l'approche 100% digitale, quand ça fait la différence.",
           },
           {
-            title: "Temps libéré pour le terrain",
-            desc: "Vous vous concentrez sur les rendez-vous et la relation client, on gère l'acquisition en amont.",
+            title: "Mise en avant locale",
+            desc: "On exploite la base pour positionner vos produits et services auprès d'entreprises proches de votre zone d'action et de votre marché.",
           },
           {
-            title: "KPIs de suivi",
-            desc: "Objectifs mesurables chaque semaine : emails envoyés, taux de réponse, appels, RDV obtenus.",
+            title: "Adapté à votre demande",
+            desc: "On filtre et on adapte la base selon vos critères : secteur, taille, localisation, pour que chaque appel serve votre stratégie.",
           },
         ],
         approach: [
           {
-            step: "Onboarding & process",
-            desc: "On comprend votre offre, vos cibles et on met en place le process de prospection.",
+            step: "Brief & ciblage",
+            desc: "On comprend votre offre, votre cible et la zone géographique à travailler en priorité.",
           },
           {
-            step: "Constitution de la base",
-            desc: "Recherche et qualification de prospects via annuaires, réseaux professionnels et bases de données.",
+            step: "Extraction & filtrage",
+            desc: "On pioche dans notre base, on filtre selon vos critères et on prépare une liste de contacts qualifiés et pertinents.",
           },
           {
-            step: "Emailing & relances",
-            desc: "Envoi de séquences d'emails personnalisés et relances téléphoniques structurées.",
+            step: "Prise de contact directe",
+            desc: "Notre secrétaire contacte directement les entreprises pour présenter votre offre, de manière humaine et adaptée.",
           },
           {
-            step: "Gestion CRM",
-            desc: "Suivi de chaque contact, mise à jour des statuts, planification des prochaines actions.",
+            step: "Suivi & qualification",
+            desc: "Chaque contact est suivi, qualifié et transmis avec les informations utiles pour que vous puissiez conclure.",
           },
           {
-            step: "Reporting hebdomadaire",
-            desc: "Bilan des actions réalisées, résultats obtenus et ajustements pour la semaine suivante.",
+            step: "Reporting & ajustements",
+            desc: "Bilan des appels, des retours et ajustement du pitch et du ciblage pour maximiser les retombées.",
           },
         ],
         relatedSlugs: [
@@ -628,47 +890,98 @@ export const services: Service[] = [
       },
       en: {
         title: "Secretarial & B2B Management",
-        tagline: "Prospecting and admin, handled for you",
+        tagline: "The direct approach: a qualified database and a secretary talking to your prospects",
         whatIs:
-          "We take care of your commercial prospecting and administrative management. Cold emailing, phone follow-ups, CRM management, prospect tracking, appointment booking, reservation management and client correspondence. We set up a structured process with clear weekly goals: emails sent, response rate, calls made, meetings booked. You stay in control, we keep the machine running.",
+          "Sometimes, the best approach isn't digital — it's direct. We have a large database of companies that we've gathered, sorted and filtered to cover many industries and geographic areas. Our dedicated secretary reaches out directly to these companies to put your products and services forward, locally and with precision. It's an approach that breaks the purely digital playbook we deploy elsewhere: a real human contact, with a voice, a relationship, a follow-up. We tailor the lists and the pitch to your needs — your target, your area, your message. You stay in control, we work the field.",
         benefits: [
           {
-            title: "Active prospecting",
-            desc: "Daily cold emails, phone follow-ups and rigorous tracking of every prospect in the CRM.",
+            title: "Qualified database",
+            desc: "A B2B database already gathered, sorted and filtered, ready to be activated and adapted to your target.",
           },
           {
-            title: "Structured sales pipeline",
-            desc: "A prospecting file continuously enriched with qualified contacts and clear tracking at every stage.",
+            title: "Direct & human approach",
+            desc: "A dedicated secretary reaching out directly to your prospects — the opposite of the 100% digital approach, when that's what makes the difference.",
           },
           {
-            title: "Time freed for the field",
-            desc: "You focus on meetings and client relationships, we handle upstream acquisition.",
+            title: "Local positioning",
+            desc: "We leverage the database to position your products and services with companies close to your area and your market.",
           },
           {
-            title: "Tracking KPIs",
-            desc: "Measurable weekly goals: emails sent, response rate, calls, meetings booked.",
+            title: "Adapted to your request",
+            desc: "We filter and adapt the base to your criteria: industry, size, location, so every call serves your strategy.",
           },
         ],
         approach: [
           {
-            step: "Onboarding & process",
-            desc: "We understand your offer, your targets and set up the prospecting process.",
+            step: "Brief & targeting",
+            desc: "We understand your offer, your target and the geographic area to prioritize.",
           },
           {
-            step: "Building the database",
-            desc: "Prospect research and qualification through directories, professional networks and databases.",
+            step: "Extraction & filtering",
+            desc: "We pull from our database, filter by your criteria and prepare a list of qualified, relevant contacts.",
           },
           {
-            step: "Emailing & follow-ups",
-            desc: "Sending personalized email sequences and structured phone follow-ups.",
+            step: "Direct outreach",
+            desc: "Our secretary contacts companies directly to pitch your offer, in a human and adapted way.",
           },
           {
-            step: "CRM management",
-            desc: "Tracking every contact, updating statuses, planning next actions.",
+            step: "Follow-up & qualification",
+            desc: "Every contact is tracked, qualified and passed to you with the info you need to close.",
           },
           {
-            step: "Weekly reporting",
-            desc: "Review of actions taken, results achieved and adjustments for the following week.",
+            step: "Reporting & adjustments",
+            desc: "Review of calls, feedback and tuning of the pitch and targeting to maximize results.",
+          },
+        ],
+        relatedSlugs: [
+          "ia-automatisation",
+          "optimisation-digitale",
+          "ads-social-media",
+        ],
+      },
+      nl: {
+        title: "Secretariaat & B2B Beheer",
+        tagline: "De directe aanpak: een gekwalificeerde database en een secretaresse die met uw prospects spreekt",
+        whatIs:
+          "Soms is de beste aanpak niet digitaal — maar direct. We beschikken over een uitgebreide database van bedrijven die we hebben verzameld, gesorteerd en gefilterd om vele sectoren en geografische gebieden te dekken. Onze toegewijde secretaresse neemt rechtstreeks contact op met deze bedrijven om uw producten en diensten lokaal en gericht in de kijker te zetten. Het is een aanpak die de volledig digitale strategie die we elders uitrollen doorbreekt: een echt menselijk contact, met een stem, een relatie, een opvolging. We passen de lijsten en de aanpak aan volgens uw wensen — uw doelgroep, uw regio, uw pitch. U behoudt de controle, wij activeren het terrein.",
+        benefits: [
+          {
+            title: "Gekwalificeerde database",
+            desc: "Een B2B-database die al verzameld, gesorteerd en gefilterd is, klaar om geactiveerd en aangepast te worden aan uw doelgroep.",
+          },
+          {
+            title: "Directe & menselijke aanpak",
+            desc: "Een toegewijde secretaresse die rechtstreeks contact opneemt met uw prospects — het tegendeel van de 100% digitale aanpak, wanneer dat het verschil maakt.",
+          },
+          {
+            title: "Lokale positionering",
+            desc: "We benutten de database om uw producten en diensten te positioneren bij bedrijven dicht bij uw werkgebied en markt.",
+          },
+          {
+            title: "Aangepast aan uw vraag",
+            desc: "We filteren en passen de database aan volgens uw criteria: sector, grootte, locatie, zodat elk gesprek uw strategie dient.",
+          },
+        ],
+        approach: [
+          {
+            step: "Briefing & targeting",
+            desc: "We begrijpen uw aanbod, uw doelgroep en het prioritaire werkgebied.",
+          },
+          {
+            step: "Extractie & filtering",
+            desc: "We putten uit onze database, filteren volgens uw criteria en bereiden een lijst van gekwalificeerde, relevante contacten voor.",
+          },
+          {
+            step: "Directe outreach",
+            desc: "Onze secretaresse neemt rechtstreeks contact op met bedrijven om uw aanbod op een menselijke en aangepaste manier voor te stellen.",
+          },
+          {
+            step: "Opvolging & kwalificatie",
+            desc: "Elk contact wordt opgevolgd, gekwalificeerd en aan u doorgegeven met de nodige info om af te sluiten.",
+          },
+          {
+            step: "Rapportering & bijsturing",
+            desc: "Overzicht van gesprekken, feedback en bijsturing van pitch en targeting om de resultaten te maximaliseren.",
           },
         ],
         relatedSlugs: [
@@ -685,25 +998,25 @@ export const services: Service[] = [
     content: {
       fr: {
         title: "Marketing & Consultation Commerciale",
-        tagline: "Une stratégie digitale claire, des décisions éclairées",
+        tagline: "Réduire les coûts, augmenter les bénéfices — les deux à la fois",
         whatIs:
-          "On vous aide à définir votre stratégie marketing digitale et à prendre les bonnes décisions commerciales. On analyse des problèmes complexes et on les résout grâce à des outils modernes d'analyse de données. Étude de votre marché, choix des canaux, positionnement, plan d'action concret. Que ce soit pour un audit ponctuel de votre stratégie actuelle ou un accompagnement dans la durée, on vous donne une vision claire de ce qui fonctionne, ce qui manque et par où commencer. L'objectif : investir votre budget là où ça rapporte vraiment.",
+          "Définir une stratégie, prendre les bonnes décisions commerciales, savoir comment réduire les coûts d'un côté et augmenter les bénéfices de l'autre. Ce sont des mots simples, mais ils englobent beaucoup de choses, parce qu'en réalité, il n'y a jamais une bonne décision — ce sont des dizaines de micro-décisions qui, mises bout à bout, font diminuer vos dépenses ou monter vos marges. On vient jouer sur ces deux angles à la fois. Notre valeur, c'est le point de vue extérieur : c'est plus facile de briser une boucle quand on ne fait pas partie de la boîte. On arrive, pour des coûts minimes, à provoquer de gros changements dans la façon dont l'entreprise opère. Parce que souvent, pour gagner de l'argent, il faut commencer par en dépenser moins.",
         benefits: [
           {
-            title: "Vision stratégique",
-            desc: "Une analyse complète de votre positionnement digital et de vos opportunités de croissance sur votre marché.",
+            title: "Réduction des coûts",
+            desc: "On traque les dépenses évitables, les outils qui font doublon, les process qui coûtent trop cher — et on vous aide à couper ce qui doit l'être.",
           },
           {
-            title: "Choix des bons canaux",
-            desc: "On identifie les canaux qui ont le plus de potentiel pour votre business — pas de budget gaspillé sur ce qui ne marche pas.",
+            title: "Augmentation des bénéfices",
+            desc: "En parallèle, on identifie les leviers concrets pour augmenter vos marges : positionnement, pricing, upsell, canaux à fort ROI.",
           },
           {
-            title: "Plan d'action concret",
-            desc: "Pas de théorie : un plan avec des actions prioritaires, des délais et des résultats attendus mesurables.",
+            title: "Point de vue extérieur",
+            desc: "On voit ce que vous ne voyez plus parce que vous êtes dedans. Ce recul vaut souvent plus qu'un gros budget conseil.",
           },
           {
-            title: "Décisions basées sur les données",
-            desc: "On s'appuie sur vos chiffres, votre marché et vos concurrents pour recommander — pas sur des intuitions.",
+            title: "Des micro-décisions qui comptent",
+            desc: "Pas de grand plan magique : on empile des petites décisions précises qui, mises ensemble, transforment les résultats.",
           },
         ],
         approach: [
@@ -736,25 +1049,25 @@ export const services: Service[] = [
       },
       en: {
         title: "Marketing & Business Consulting",
-        tagline: "A clear digital strategy, informed decisions",
+        tagline: "Cut costs and grow profits — both at once",
         whatIs:
-          "We help you define your digital marketing strategy and make the right business decisions. We analyze complex problems and solve them using modern data analysis tools. Market research, channel selection, positioning, concrete action plan. Whether it's a one-time audit of your current strategy or ongoing support, we give you a clear picture of what's working, what's missing and where to start. The goal: invest your budget where it actually pays off.",
+          "Define a strategy, make the right business decisions, figure out how to cut costs on one side and grow profits on the other. These are simple words, but they cover a lot of ground — because in reality, there's never one single good decision. There are dozens of micro-decisions that, stacked together, bring expenses down or push margins up. We play on both angles at once. Our real value is the outside perspective: it's easier to break a loop when you're not inside the company. For a minimal cost, we can trigger major changes in how the business operates. Because often, to make more money, you first have to spend less.",
         benefits: [
           {
-            title: "Strategic vision",
-            desc: "A complete analysis of your digital positioning and growth opportunities in your market.",
+            title: "Cost reduction",
+            desc: "We track avoidable spending, redundant tools, and processes that cost too much — and help you cut what needs to be cut.",
           },
           {
-            title: "Right channel selection",
-            desc: "We identify the channels with the most potential for your business — no budget wasted on what doesn't work.",
+            title: "Profit growth",
+            desc: "At the same time, we identify concrete levers to grow your margins: positioning, pricing, upsell, high-ROI channels.",
           },
           {
-            title: "Concrete action plan",
-            desc: "No theory: a plan with priority actions, timelines and measurable expected results.",
+            title: "Outside perspective",
+            desc: "We see what you no longer see because you're inside it. That distance is often worth more than a big consulting budget.",
           },
           {
-            title: "Data-driven decisions",
-            desc: "We rely on your numbers, your market and your competitors to recommend — not on gut feelings.",
+            title: "Micro-decisions that matter",
+            desc: "No magic grand plan: we stack small, precise decisions that together transform the results.",
           },
         ],
         approach: [
@@ -777,6 +1090,57 @@ export const services: Service[] = [
           {
             step: "Ongoing support",
             desc: "Regular results monitoring, strategy adjustments and continuous advice to stay on track.",
+          },
+        ],
+        relatedSlugs: [
+          "ads-social-media",
+          "optimisation-digitale",
+          "secretariat-b2b",
+        ],
+      },
+      nl: {
+        title: "Marketing & Commerciële Consultancy",
+        tagline: "Kosten verlagen, winst verhogen — allebei tegelijk",
+        whatIs:
+          "Een strategie bepalen, de juiste commerciële beslissingen nemen, weten hoe u aan de ene kant kosten kunt verlagen en aan de andere kant winst kunt laten groeien. Dat zijn eenvoudige woorden, maar ze dekken veel terrein — want in werkelijkheid is er nooit één enkele goede beslissing. Het zijn tientallen micro-beslissingen die, samen opgeteld, uw uitgaven doen dalen of uw marges doen stijgen. Wij spelen tegelijk op beide hoeken. Onze echte meerwaarde is de buitenstaanders-blik: het is makkelijker om een patroon te doorbreken wanneer je niet in het bedrijf zit. Voor minimale kosten kunnen wij grote veranderingen teweegbrengen in hoe het bedrijf opereert. Want vaak, om meer geld te verdienen, moet je eerst minder uitgeven.",
+        benefits: [
+          {
+            title: "Kostenbesparing",
+            desc: "We sporen vermijdbare uitgaven op, overbodige tools en processen die te duur zijn — en helpen u te snijden waar nodig.",
+          },
+          {
+            title: "Winstgroei",
+            desc: "Tegelijk identificeren we concrete hefbomen om uw marges te laten groeien: positionering, pricing, upsell, kanalen met hoge ROI.",
+          },
+          {
+            title: "Externe blik",
+            desc: "We zien wat u niet meer ziet omdat u er middenin zit. Die afstand is vaak meer waard dan een groot consultancybudget.",
+          },
+          {
+            title: "Micro-beslissingen die ertoe doen",
+            desc: "Geen magisch groot plan: we stapelen kleine, nauwkeurige beslissingen op die samen de resultaten transformeren.",
+          },
+        ],
+        approach: [
+          {
+            step: "Audit van het bestaande",
+            desc: "Analyse van uw huidige strategie, kanalen, resultaten en positionering tegenover de concurrentie.",
+          },
+          {
+            step: "Marktonderzoek",
+            desc: "Analyse van uw sector, concurrenten en onbenutte digitale kansen.",
+          },
+          {
+            step: "Strategische aanbevelingen",
+            desc: "Selectie van prioritaire kanalen, aanbevolen budget, kernboodschappen en te hanteren positionering.",
+          },
+          {
+            step: "Actieplan",
+            desc: "Gedetailleerde roadmap met acties om te starten, tools om te implementeren en KPI's om op te volgen.",
+          },
+          {
+            step: "Continue begeleiding",
+            desc: "Regelmatige opvolging van resultaten, bijsturing van de strategie en continu advies om op koers te blijven.",
           },
         ],
         relatedSlugs: [

@@ -9,15 +9,12 @@
     z-index: 1000;
     padding: 16px 0;
     transition: var(--transition);
-    background: rgba(6, 6, 15, 0.6);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: #06060f;
+    border-bottom: 1px solid var(--border-subtle);
 }
 
 .navbar.scrolled {
-    background: rgba(6, 6, 15, 0.92);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: #06060f;
     border-bottom: 1px solid var(--border-subtle);
     padding: 12px 0;
 }
@@ -64,32 +61,44 @@
 }
 
 /* Eye Animation on o and O
-   The letters keep their natural size/spacing.
-   We just overlay circle + pupil on top. */
+   The letters keep their natural size/spacing but are hidden
+   with visibility:hidden (iOS Safari safe). We re-enable visibility
+   on the pseudo-elements so the eye circle + pupil stay visible. */
 .eye {
     position: relative;
-    color: transparent !important;
-    -webkit-text-fill-color: transparent;
-    background: none !important;
+    display: inline-block;
+    visibility: hidden;
     margin: 0 1px;
+    /* Extra safety overrides for iOS Safari so the letter never
+       bleeds through even if visibility behavior is buggy. */
+    color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    text-shadow: none !important;
 }
 
-/* The eye circle — overlays on top of the transparent letter */
+/* The eye circle — overlays on top of the hidden letter */
 .eye::before {
     content: '';
     position: absolute;
+    visibility: visible;
     border: 2px solid #fff;
     border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: eye-blink 3.5s ease-in-out infinite;
+    box-sizing: border-box;
 }
 
 /* The pupil */
 .eye::after {
     content: '';
     position: absolute;
+    visibility: visible;
     background: #fff;
     border-radius: 50%;
     top: 50%;
