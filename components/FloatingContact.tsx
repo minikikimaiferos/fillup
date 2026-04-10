@@ -16,7 +16,7 @@ export default function FloatingContact() {
         <MessageCircle size={20} />
       </a>
       <a
-        href="mailto:contact@goopti.be"
+        href="mailto:goopti.bxl@gmail.com"
         className="floating-contact-btn floating-email"
         aria-label="Email"
         title="Email"

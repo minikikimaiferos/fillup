@@ -28,11 +28,11 @@ export default function Contact() {
 
           <div className="contact-grid">
             <div className="contact-info">
-              <a href="mailto:contact@goopti.be" className="contact-item">
+              <a href="mailto:goopti.bxl@gmail.com" className="contact-item">
                 <div className="contact-icon"><Mail size={18} /></div>
                 <div>
                   <span className="contact-label">Email</span>
-                  <span className="contact-value">contact@goopti.be</span>
+                  <span className="contact-value">goopti.bxl@gmail.com</span>
                 </div>
               </a>
               <a href="https://wa.me/32489923085" target="_blank" rel="noopener" className="contact-item">

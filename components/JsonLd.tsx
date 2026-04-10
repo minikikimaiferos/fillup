@@ -15,7 +15,7 @@ function OrganizationJsonLd() {
       addressLocality: 'Bruxelles',
       addressCountry: 'BE',
     },
-    email: 'contact@goopti.be',
+    email: 'goopti.bxl@gmail.com',
     telephone: '+32484737038',
     sameAs: [],
     areaServed: {

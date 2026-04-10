@@ -15,7 +15,7 @@ export default function Footer() {
             <span className="footer-separator">·</span>
             <a href="tel:+32489923085" className="footer-blog-link">+32 489 92 30 85</a>
             <span className="footer-separator">·</span>
-            <a href="mailto:contact@goopti.be" className="footer-blog-link">contact@goopti.be</a>
+            <a href="mailto:goopti.bxl@gmail.com" className="footer-blog-link">goopti.bxl@gmail.com</a>
           </div>
           <p>&copy; 2026 Go_Opti. {t('footer.rights')}</p>
         </div>
