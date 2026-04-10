@@ -22,7 +22,7 @@ function OrganizationJsonLd() {
       '@type': 'Country',
       name: 'Belgium',
     },
-    knowsLanguage: ['fr', 'en'],
+    knowsLanguage: ['fr', 'en', 'nl'],
   };
 
   return (
@@ -76,7 +76,7 @@ function WebSiteJsonLd() {
     url: 'https://goopti.be',
     description:
       'Agence digitale à Bruxelles — optimisation digitale, développement web & apps, IA, publicité en ligne et production créative.',
-    inLanguage: ['fr-BE', 'en'],
+    inLanguage: ['fr-BE', 'en', 'nl-BE'],
   };
 
   return (

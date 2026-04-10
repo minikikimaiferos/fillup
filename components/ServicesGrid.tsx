@@ -16,15 +16,19 @@ export default function ServicesGrid() {
         </div>
 
         <div className="services-grid">
-          {services.map((service) => (
-            <ServiceCard
-              key={service.slug}
-              slug={service.slug}
-              icon={service.icon}
-              title={service.content[language].title}
-              externalLink={service.externalLink}
-            />
-          ))}
+          {services.map((service) => {
+            // Fallback to French if the requested language isn't available yet
+            const content = service.content[language] ?? service.content.fr;
+            return (
+              <ServiceCard
+                key={service.slug}
+                slug={service.slug}
+                icon={service.icon}
+                title={content.title}
+                externalLink={service.externalLink}
+              />
+            );
+          })}
         </div>
       </div>
     </section>
