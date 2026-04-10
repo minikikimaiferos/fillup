@@ -167,6 +167,44 @@
     gap: 16px;
 }
 
+/* Navbar contact buttons (email + whatsapp) */
+.nav-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.nav-contact-btn:hover {
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.nav-whatsapp:hover {
+    background: rgba(37, 211, 102, 0.18);
+    border-color: rgba(37, 211, 102, 0.55);
+    color: #25d366;
+}
+
+.nav-email:hover {
+    background: rgba(167, 139, 250, 0.18);
+    border-color: rgba(167, 139, 250, 0.55);
+    color: #a78bfa;
+}
+
 /* Language Toggle */
 .lang-toggle {
     display: flex;

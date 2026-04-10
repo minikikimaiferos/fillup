@@ -56,6 +56,15 @@
         gap: 10px;
     }
 
+    .nav-contact {
+        gap: 6px;
+    }
+
+    .nav-contact-btn {
+        width: 32px;
+        height: 32px;
+    }
+
     .lang-btn {
         padding: 5px 10px;
         font-size: 0.72rem;
@@ -308,6 +317,20 @@
 
     .nav-right {
         gap: 8px;
+    }
+
+    .nav-contact {
+        gap: 4px;
+    }
+
+    .nav-contact-btn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .nav-contact-btn svg {
+        width: 15px;
+        height: 15px;
     }
 
     .portfolio-grid {

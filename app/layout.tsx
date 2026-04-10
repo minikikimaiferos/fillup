@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { LanguageProvider } from '@/hooks/useLanguage';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import FloatingContact from '@/components/FloatingContact';
 import JsonLd from '@/components/JsonLd';
 import './globals.css';
 
@@ -114,7 +113,6 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <FloatingContact />
         </LanguageProvider>
       </body>
     </html>
